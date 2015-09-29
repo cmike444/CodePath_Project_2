@@ -14,6 +14,15 @@
 		093427681BB9B7CA00537504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093427661BB9B7CA00537504 /* LaunchScreen.storyboard */; };
 		093427731BB9B7CA00537504 /* Project_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093427721BB9B7CA00537504 /* Project_2Tests.swift */; };
 		0934277E1BB9B7CA00537504 /* Project_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934277D1BB9B7CA00537504 /* Project_2UITests.swift */; };
+		0934278C1BB9BBCB00537504 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934278B1BB9BBCB00537504 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
+		0934278E1BB9BC1100537504 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934278D1BB9BC1100537504 /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		093427921BB9CD5100537504 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093427911BB9CD5100537504 /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		093427941BB9D0DA00537504 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093427931BB9D0DA00537504 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		093427961BB9FD7F00537504 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093427951BB9FD7F00537504 /* TutorialViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		093427981BBA18CB00537504 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093427971BBA18CB00537504 /* FeedViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0934279A1BBA1AC500537504 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093427991BBA1AC500537504 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0934279C1BBA1ED400537504 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934279B1BBA1ED400537504 /* ConversationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0934279E1BBA20CE00537504 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934279D1BBA20CE00537504 /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		093427791BB9B7CA00537504 /* Project-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0934277D1BB9B7CA00537504 /* Project_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_2UITests.swift; sourceTree = "<group>"; };
 		0934277F1BB9B7CA00537504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0934278B1BB9BBCB00537504 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		0934278D1BB9BC1100537504 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		093427911BB9CD5100537504 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		093427931BB9D0DA00537504 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		093427951BB9FD7F00537504 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		093427971BBA18CB00537504 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		093427991BBA1AC500537504 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0934279B1BBA1ED400537504 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		0934279D1BBA20CE00537504 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +115,18 @@
 		0934275C1BB9B7CA00537504 /* Project-2 */ = {
 			isa = PBXGroup;
 			children = (
+				093427911BB9CD5100537504 /* SignInViewController.swift */,
 				0934275D1BB9B7CA00537504 /* AppDelegate.swift */,
 				0934275F1BB9B7CA00537504 /* ViewController.swift */,
+				0934278B1BB9BBCB00537504 /* Common.swift */,
 				093427611BB9B7CA00537504 /* Main.storyboard */,
+				0934279D1BBA20CE00537504 /* CreateAccountViewController.swift */,
+				0934279B1BBA1ED400537504 /* ConversationsViewController.swift */,
+				093427991BBA1AC500537504 /* SettingsViewController.swift */,
+				093427971BBA18CB00537504 /* FeedViewController.swift */,
+				093427951BB9FD7F00537504 /* TutorialViewController.swift */,
+				093427931BB9D0DA00537504 /* LoginViewController.swift */,
+				0934278D1BB9BC1100537504 /* IntroViewController.swift */,
 				093427641BB9B7CA00537504 /* Assets.xcassets */,
 				093427661BB9B7CA00537504 /* LaunchScreen.storyboard */,
 				093427691BB9B7CA00537504 /* Info.plist */,
@@ -255,8 +282,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093427941BB9D0DA00537504 /* LoginViewController.swift in Sources */,
+				0934279C1BBA1ED400537504 /* ConversationsViewController.swift in Sources */,
+				093427961BB9FD7F00537504 /* TutorialViewController.swift in Sources */,
+				0934279E1BBA20CE00537504 /* CreateAccountViewController.swift in Sources */,
 				093427601BB9B7CA00537504 /* ViewController.swift in Sources */,
+				0934278C1BB9BBCB00537504 /* Common.swift in Sources */,
 				0934275E1BB9B7CA00537504 /* AppDelegate.swift in Sources */,
+				093427921BB9CD5100537504 /* SignInViewController.swift in Sources */,
+				093427981BBA18CB00537504 /* FeedViewController.swift in Sources */,
+				0934278E1BB9BC1100537504 /* IntroViewController.swift in Sources */,
+				0934279A1BBA1AC500537504 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +517,7 @@
 				093427841BB9B7CA00537504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		093427851BB9B7CA00537504 /* Build configuration list for PBXNativeTarget "Project-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +526,7 @@
 				093427871BB9B7CA00537504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		093427881BB9B7CA00537504 /* Build configuration list for PBXNativeTarget "Project-2UITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +535,7 @@
 				0934278A1BB9B7CA00537504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
